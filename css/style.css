@@ -1336,16 +1336,16 @@ ul.slides li {
 .skinny {
 	background: url('../img/header-skinny.png') right bottom no-repeat;
 	background-size: contain;
-	padding:-100px 0 -10px 0;
+	padding:110px 0 100px 0;
 	height:auto;
-	background-color: #FFFFFF;
+	background-color: #050505;
 }
 .skinny h1 {
-	font-size: 120px;
+	font-size: 90px;
 	letter-spacing: -8px;
 	margin: 0;
 	font-weight: 600;
-	line-height: 95px;
+	line-height: 75px;
 	text-transform: uppercase;
 }
 .skinny h1 span {
