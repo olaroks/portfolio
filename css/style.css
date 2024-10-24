@@ -195,6 +195,7 @@ p {
 	font-weight:100;
 	line-height: 28px!important;
 }
+
 /* ==========================================================================Nevada Add1 Buttons========================================================================== */
 .btn{border-radius: 0;}
 .btn-o {
@@ -554,11 +555,11 @@ table {
 	background-color: #050505;
 }
 .ola h1 {
-	font-size: 120px;
+	font-size: 90px;
 	letter-spacing: -8px;
 	margin: 0;
 	font-weight: 600;
-	line-height: 95px;
+	line-height: 75px;
 	text-transform: uppercase;
 }
 .ola h1 span {
@@ -1210,10 +1211,10 @@ ul.slides li {
 		padding: 95px 0px 0px 0px;
 	}
 
-	.hero h1 {
-		font-size: 100px;
-		line-height: 80px;
-		margin-top: 65px;
+	.ola h1 {
+		font-size: 75px;
+		line-height: 69px;
+		margin-top: 66px;
 }
 }
 /* 480px (WVGA - Low End Windows Phone) */
@@ -1287,12 +1288,12 @@ ul.slides li {
     text-align: center;
 	}
 
-	.hero h3 {
+	.ola h3 {
 	    letter-spacing: 10px;
 	}
 
 
-	.hero {
+	.ola {
 	    padding-bottom: 0;
 	}
 
@@ -1331,3 +1332,160 @@ ul.slides li {
 	    padding-bottom: 40px;
 	}
 }
+/* ==========================================================================Ola Text========================================================================== */
+.skinny {
+	background: url('../img/header-skinny.png') right bottom no-repeat;
+	background-size: contain;
+	padding:-100px 0 -10px 0;
+	height:auto;
+	background-color: #FFFFFF;
+}
+.skinny h1 {
+	font-size: 120px;
+	letter-spacing: -8px;
+	margin: 0;
+	font-weight: 600;
+	line-height: 95px;
+	text-transform: uppercase;
+}
+.skinny h1 span {
+	color:#CCCCCC;
+	/* display:inline-block; */
+}
+.skinny h3 {
+	font-size: 20px;
+	margin:0;
+	padding:0;
+	opacity:0.5;
+	color: #F47ABC;
+	letter-spacing: 18px;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+.skinny p {
+	letter-spacing:1px;
+	color:#474747;
+	font-size: 15px;
+}
+/* Bouncing Arrow Animation */
+@keyframes arrowbounce {
+	from {
+		-webkit-transform:translateY(0);
+		-moz-transform:translateY(0);
+		transform:translateY(0);
+	}
+	to {
+		-webkit-transform:translateY(-100px);
+		-moz-transform:translateY(-100px);
+		transform:translateY(-100px);
+	}
+}
+@-moz-keyframes arrowbounce {
+	/* Firefox */ from {
+		-webkit-transform:translateY(0);
+		-moz-transform:translateY(0);
+		transform:translateY(0);
+	}
+	to {
+		-webkit-transform:translateY(-20px);
+		-moz-transform:translateY(-20px);
+		transform:translateY(-20px);
+	}
+}
+@-webkit-keyframes arrowbounce {
+	/* Safari and Chrome */ from {
+		-webkit-transform:translateY(0);
+		-moz-transform:translateY(0);
+		transform:translateY(0);
+	}
+	to {
+		-webkit-transform:translateY(-20px);
+		-moz-transform:translateY(-20px);
+		transform:translateY(-20px);
+	}
+}
+@-o-keyframes arrowbounce {
+	/* Opera */ from {
+		-webkit-transform:translateY(0);
+		-moz-transform:translateY(0);
+		transform:translateY(0);
+	}
+	to {
+		-webkit-transform:translateY(-20px);
+		-moz-transform:translateY(-20px);
+		transform:translateY(-20px);
+	}
+}
+.scrollto {
+	padding: 240px 0px 0px 0px;
+	display:block;
+	color:#000;
+	text-decoration:none;
+	width:200px;
+	margin:0 auto;
+	border-bottom: none;
+}
+.scrollto--arrow {
+	padding:10px;
+}
+.scrollto--arrow img {
+	animation:arrowbounce 1s alternate infinite;
+	-moz-animation:arrowbounce 1s alternate infinite;
+	/* Firefox */-webkit-animation:arrowbounce 1s alternate infinite;
+	/* Safari and Chrome */-o-animation: arrowbounce 1s alternate infinite;
+	/* Opera */
+}
+/* ==========================================================================Main========================================================================== */
+
+main[role="main-home-wrapper"],main[role="main-inner-wrapper"] { padding-bottom:90px}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"],main[role="main-inner-wrapper"] article[role="pge-title-content"]{ padding-left:41px}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[role="main-inner-wrapper"] article[role="pge-title-content"] header{ padding-bottom:19px; padding-top:83px}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:46px; line-height:53px; color:#404040; font-weight:800}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ display:block; font-size:80px; color:#fb5353; padding-bottom:15px}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="main-inner-wrapper"] article[role="pge-title-content"] p{ font-size:20px; line-height:30px; color:#454545}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, input, main {
+
+	-webkit-box-sizing: border-box;
+
+	-moz-box-sizing: border-box;
+
+	box-sizing: border-box;
+
+	margin: 0;
+
+	padding: 0;
+
+	vertical-align: baseline;
+
+	border: 0;
+
+	outline: 0;
+
+}
+/* ==========================================================================Work Samples========================================================================== */
+
+.work-samples,{ padding:0 69px; margin-top:73px}
+
+.work-samples header h2{ color:#474747; font-size:36px; font-weight:800}
+
+.work-samples header a{ display:inline-block; color:#F47ABC; font-size:18px;font-weight:800;padding-top:3px}
+
+.work-samples header a i{ color:#050505; padding-left:10px}
+
+.work-samples header a:hover{ color:#050505; text-decoration:none}
+
+.work-samples header a:hover i{ color:#F47ABC}
+
+.work-samples p{ font-size:16px; color:#636363; line-height:30px; margin-bottom:20px; font-weight:300}
+
+.work-samples p strong{ font-weight:800}
+
+.work-images{ margin-top:46px}
+
+.work-images li{ margin-bottom:50px}
