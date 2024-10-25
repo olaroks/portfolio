@@ -1067,6 +1067,9 @@ ul.social-buttons li:last-child {
 }
 .contact-wrap {
 	position:relative;
+	  /* Center child horizontally*/
+  	display: flex;
+  	justify-content: center;
 }
 #googlemaps {
 	width:100%;
@@ -1078,7 +1081,9 @@ ul.social-buttons li:last-child {
 	margin-top:-20px!important;
 }
 .contact label {
-	float:left;
+	width: 50px;
+ 	height: 50px;
+  b	ackground-color: red;
 }
 .contact .form-control {
 	margin-bottom:20px;
